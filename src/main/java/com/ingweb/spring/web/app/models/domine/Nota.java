@@ -3,7 +3,7 @@ package com.ingweb.spring.web.app.models.domine;
 public class Nota {
 	
 	private Simulacro simulacro;
-	private Alumno alumno;
+//	private Alumno alumno;
 	private Double Nota;
 	
 	
@@ -13,12 +13,12 @@ public class Nota {
 	public void setSimulacro(Simulacro simulacro) {
 		this.simulacro = simulacro;
 	}
-	public Alumno getAlumno() {
-		return alumno;
-	}
-	public void setAlumno(Alumno alumno) {
-		this.alumno = alumno;
-	}
+//	public Alumno getAlumno() {
+//		return alumno;
+//	}
+//	public void setAlumno(Alumno alumno) {
+//		this.alumno = alumno;
+//	}
 	public Double getNota() {
 		return Nota;
 	}
