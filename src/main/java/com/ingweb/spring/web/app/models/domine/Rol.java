@@ -4,7 +4,6 @@ public class Rol {
 
 	private String Rol;
 
-
 	public String getRol() {
 		return Rol;
 	}
@@ -12,7 +11,5 @@ public class Rol {
 	public void setRol(String rol) {
 		Rol = rol;
 	}
-	
-	
-	
+
 }
